@@ -8,10 +8,10 @@ fi
     echo "apache2-utils have already been installed."
 
 
-echo -e "Whats the user?"
+echo -e "Whats the new username?"
 read uservar
 
-echo -e "Whats the password?"
+echo -e "What will be the password?"
 read passwdvar
 
 sudo sh -c "echo -n '$uservar:' >> /etc/nginx/.htpasswd"
