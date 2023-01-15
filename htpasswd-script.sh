@@ -17,3 +17,5 @@ read passwdvar
 sudo sh -c "echo -n '$uservar:' >> /etc/nginx/.htpasswd"
 
 sudo sh -c "openssl passwd $passwdvar >> /etc/nginx/.htpasswd"
+
+echo "$uservar with $passwdvar in the file /etc/nginx/.htpasswd has been created."
