@@ -1,4 +1,4 @@
-read -p "This program installs apache2-urils and will ask for a user and password for /etc/nginx/.htpasswd"
+echo "This program installs apache2-urils and will ask for a user and password for /etc/nginx/.htpasswd"
 read -p "Press enter to continue"
 
 if ! command -v apache2-utils &> /dev/null
